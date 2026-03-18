@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.date, .time, .venue {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.invite {
+    margin-top: 20px;
+    font-style: italic;
+}
